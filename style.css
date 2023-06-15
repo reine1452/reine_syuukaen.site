@@ -10,20 +10,20 @@ body{font-family: 'Noto Serif JP';}
     .scrolldown1{
         /*描画位置※位置は適宜調整してください*/
       position:absolute;
-      left:48%;
+      left:50%;
       bottom:16px;
         /*全体の高さ*/
-      height:50px;
+      height:40px;
     }
     
     /*Scrollテキストの描写*/
     .scrolldown1 span{
         /*描画位置*/
       position: absolute;
-      left:-15px;
-      top: -15px;
+      left: -29.5px;
+      top: -27px;
+      width: 59px;
         /*テキストの形状*/
-        font-weight: 600;
         font-size: 20px;
         line-height: 40px;
         /* ボックスの高さと同一、または200% */
@@ -114,100 +114,155 @@ body{font-family: 'Noto Serif JP';}
 
 
 .about{
+    position: relative;
     width:100%;
     height: 512px;
     background-color: #3D3D3D;
     }
 
+.about-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;
+}
+
 .about h2{
-    padding-top: 99px;
     font-style: normal;
     font-size: 36px;
     color: #FFFFFF;
     }
+
 .about p{
-    margin-top: 75px;
+    padding-top: 75px;
     font-style: normal;
     font-size: 15px;
     color: #FFFFFF;
+    width: 884px;
+    margin: 0 auto;
+    line-height: 40px;
     }
 
  .service{
+    position: relative;
     width:100%;
     height: 1839px;
     background-color: #FFFFFF;}
 
- .service img{width: 600px;
+ .service img{
+  width: 600px;
     height: 430px;
 }
 
-.service h2{font-size: 36px;
-clear: both;
+.service h2{
 padding-top: 83px;
+font-size: 36px;
+clear: both;
 color: #3D3D3D;}
 
-.service h3{font-size: 30px;
-    text-align: left;
-    color: #3D3D3D;
+.service h3{
+padding-top: 12%;
+font-size: 30px;
+text-align: left;
+color: #3D3D3D;
 }
 
-.service p{font-size: 20px;
+.service p{
+    font-size: 20px;
     padding-top: 25px;
     text-align: left;
     color: #3D3D3D;
     line-height: 40px;
+    padding-bottom: 15%;
 }
 
 
 .sell{padding-top: 83px;
 }
 
-.sell .sell-text{padding-top: 54px;
+.sell .sell-text{
     width: 440px;
     float: right;
-    margin-right: 189px;
+    margin-right: 13%;
 }
 
 .cut{padding-top: 108px;}
 
-.cut .cut-text{padding-top: 54px;
+.cut .cut-text{
     width: 440px;
     float: left;
-    margin-left: 189px;
+    margin-left: 13%;
 }
 
 .maintenance{padding-top: 108px;}
 
-.maintenance-text{padding-top: 54px;
+.maintenance-text{
     width: 440px;
     float: right;
-    margin-right: 189px;
+    margin-right: 13%;
 }
  
  .product{
+    position: relative;
     width:100%;
     height: 951px;
     background-color: #f5f5f5;}
 
+.product .price{}
+
 .product h2{
+    position: absolute;
     writing-mode: vertical-rl;
-    padding-top: 174.24px; 
-    padding-left: 302px;
+    top: 20%; 
+    left: 20%;
     color: #3D3D3D;
+    font-size: 35px;
+    letter-spacing: 6px;
+    margin: auto;
+    border-right: 2px dotted  #3D3D3D;
+    border-left: 2px dotted  #3D3D3D;
 }
 
+.product p{
+  padding-top: 14px;
+  font-size: 25px;
+  line-height: 30px;
+  color: #3D3D3D;
+}
+
+.square1{border: 1px solid  #3D3D3D;
+height: 86px;
+width: 86px;}
+
+.squares{
+  position: absolute;
+  display: flex;
+  top: 68%;
+  left: 12.5%;}
+
+.square2{border: 1px solid  #3D3D3D;
+  height: 86px;
+  width: 86px;}
+
  .question{
+    position: relative;
     width:  100%;
     height: 858px;
     background: #FFFFFF;}
+  
+.question-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;}
 
-.question h2{padding-top: 94px;
+.question h2{
     font-size: 36px;
     margin-bottom: 41px;
     color: #3D3D3D;
 }
-
-.quesions{text-align: left;}
 
 .question hr{
     border: none;
@@ -216,7 +271,8 @@ color: #3D3D3D;}
     margin: auto;
 }
 
-.question table{margin-left: auto;
+.question table{
+    margin-left: auto;
     margin-right: auto;
     display: table;
     border-collapse: separate;
@@ -232,19 +288,25 @@ color: #3D3D3D;}
 }
 
 .photo{
+    position: relative;
     width: 100%; 
     height: 639px;
 }
     
 .photo img{
     width: 100%; 
-    height: 639px;
+    height: 100%;
 }
 
  .close{
+    position: relative;
     width:  100%;
     height: 700px;
     background: #3D3D3D;
+}
+
+.close .shop{height: 420px;
+padding-top: 108px;
 }
 
 
@@ -256,26 +318,19 @@ color: #3D3D3D;}
     margin: auto;
     border-right: 2px dotted #FFFFFF;
     border-left: 2px dotted #FFFFFF;
-    padding-top: 96px;
-    letter-spacing: 50px; 
+    letter-spacing: 50px;
 }
-
-
 
 .close h3{
     font-size: 36px;
     color: #FFFFFF;
     }
   
-.close table{margin-left: auto;
-    margin-right: auto;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 305px 50px;
-}
-
-.close tr{vertical-align: top;
-  text-align: left;
+.close .contents{
+    vertical-align: top;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
 }
 
 .close p{
@@ -296,7 +351,18 @@ a{
     display: inline-block;
 }
 
-footer{background: #3D3D3D;
+footer{
+  position: relative;
+  height: 40px;
+  background: #3D3D3D;
 }
 
-footer p{ color: #FFFFFF}
+footer p{
+  color: #FFFFFF;
+  font-size: 15px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:100%;
+}
