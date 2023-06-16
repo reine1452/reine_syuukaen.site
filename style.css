@@ -119,6 +119,12 @@ body{font-family: 'Noto Serif JP';}
     height: 512px;
     background-color: #3D3D3D;
     }
+  
+  @media screen and (max-width: 430px) {
+    .about{
+    height: 582px;
+    }
+  }
 
 .about-text{
   position:absolute;
@@ -133,6 +139,12 @@ body{font-family: 'Noto Serif JP';}
     font-size: 36px;
     color: #FFFFFF;
     }
+  
+    @media screen and (max-width: 430px) {
+      .about h2{
+        font-size: 18px;
+      }
+    }
 
 .about p{
     padding-top: 75px;
@@ -143,16 +155,37 @@ body{font-family: 'Noto Serif JP';}
     margin: 0 auto;
     line-height: 40px;
     }
+  
+@media screen and (max-width: 430px) {
+      .about p{
+      padding-top: 20px;
+      width: 80%;
+      line-height: 25px;
+      }
+    }
 
  .service{
     position: relative;
     width:100%;
     height: 1839px;
     background-color: #FFFFFF;}
+  
+  @media screen and (max-width: 430px) {
+      .service{
+      height: 1500px;
+      }
+  }
 
  .service img{
   width: 600px;
-    height: 430px;
+  height: 430px;
+}
+
+@media screen and (max-width: 430px) {
+  .service img{
+    width: 403px;
+    height: 302px;
+  }
 }
 
 .service h2{
@@ -161,12 +194,28 @@ font-size: 36px;
 clear: both;
 color: #3D3D3D;}
 
+@media screen and (max-width: 430px) {
+  .service h2{
+    padding-top: 39px;
+    font-size: 18px; 
+  }
+}
+
+
 .service h3{
 padding-top: 12%;
 font-size: 30px;
 text-align: left;
 color: #3D3D3D;
 }
+
+@media screen and (max-width: 430px) {
+  .service h3{
+    font-size: 15px;
+    line-height: 40;
+  }
+}
+
 
 .service p{
     font-size: 20px;
@@ -175,41 +224,82 @@ color: #3D3D3D;
     color: #3D3D3D;
     line-height: 40px;
     padding-bottom: 15%;
+    width: 440px
 }
 
+@media screen and (max-width: 430px) {
+  .service p{
+    font-size: 12px;
+    padding-top: 25px;
+    line-height: 20px;
+    width: 80%;
+  }
+}
 
 .sell{padding-top: 83px;
 }
 
+@media screen and (max-width: 430px) {
+  .sell{padding-top: 25px;
+  }
+}
+
+
 .sell .sell-text{
-    width: 440px;
     float: right;
     margin-right: 13%;
 }
 
-.cut{padding-top: 108px;}
+@media screen and (max-width: 430px) {
+  .sell .sell-text{
+  float: none;
+  }
+}
+
+.cut{padding-top: 37px;}
+
+@media screen and (max-width: 430px) {
+  .cut{padding-top: 37px;}
+}
 
 .cut .cut-text{
-    width: 440px;
     float: left;
     margin-left: 13%;
 }
 
-.maintenance{padding-top: 108px;}
+@media screen and (max-width: 430px) {
+  .cut .cut-text{
+     float: none;
+  }
+}
+
+.maintenance{padding-top: 25px;}
+
+@media screen and (max-width: 430px) {
+  .maintenance{padding-top: 108px;}
+}
 
 .maintenance-text{
-    width: 440px;
     float: right;
     margin-right: 13%;
 }
- 
+
+@media screen and (max-width: 430px) {
+  .maintenance-tex{
+     float: none;
+  }
+}
+
  .product{
     position: relative;
     width:100%;
     height: 951px;
     background-color: #f5f5f5;}
 
-.product .price{}
+@media screen and (max-width: 430px) {
+  
+}
+  
 
 .product h2{
     position: absolute;
@@ -224,6 +314,10 @@ color: #3D3D3D;
     border-left: 2px dotted  #3D3D3D;
 }
 
+@media screen and (max-width: 430px) {
+  
+}
+
 .product p{
   padding-top: 14px;
   font-size: 25px;
@@ -231,25 +325,20 @@ color: #3D3D3D;
   color: #3D3D3D;
 }
 
-.square1{border: 1px solid  #3D3D3D;
-height: 86px;
-width: 86px;}
-
-.squares{
-  position: absolute;
-  display: flex;
-  top: 68%;
-  left: 12.5%;}
-
-.square2{border: 1px solid  #3D3D3D;
-  height: 86px;
-  width: 86px;}
+@media screen and (max-width: 430px) {
+  
+}
 
  .question{
     position: relative;
     width:  100%;
     height: 858px;
     background: #FFFFFF;}
+  
+    @media screen and (max-width: 480px) {
+      .question{
+        height: 712px;
+    }}
   
 .question-text{
   position:absolute;
@@ -264,11 +353,24 @@ width: 86px;}
     color: #3D3D3D;
 }
 
+@media screen and (max-width: 430px) {
+  .question h2{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+}
+
 .question hr{
     border: none;
     border-top: 2px dotted #3D3D3D;
     width: 573px;
     margin: auto;
+}
+
+@media screen and (max-width: 430px) {
+  .question hr{
+    width: 351px;
+}
 }
 
 .question table{
@@ -279,6 +381,12 @@ width: 86px;}
     border-spacing: 18px;
 }
 
+@media screen and (max-width: 430px) {
+  .question table{
+ border-spacing: 14px;
+}
+}
+
 .question tr{vertical-align: top;
 }
 
@@ -287,16 +395,29 @@ width: 86px;}
     color: #3D3D3D;
 }
 
+@media screen and (max-width: 430px) {
+  .question p{
+    font-size: 12px;
+} 
+}
+
 .photo{
     position: relative;
     width: 100%; 
     height: 639px;
+}
+
+@media screen and (max-width: 430px) {
+  .photo{
+    height: 500px;
+}
 }
     
 .photo img{
     width: 100%; 
     height: 100%;
 }
+
 
  .close{
     position: relative;
@@ -305,8 +426,22 @@ width: 86px;}
     background: #3D3D3D;
 }
 
-.close .shop{height: 420px;
+@media screen and (max-width: 430px) {
+  .close{
+    height: 327px;
+}
+}
+
+.close .shop{
+  height: 420px;
 padding-top: 108px;
+}
+
+@media screen and (max-width: 430px) {
+  .close .shop{
+    height: 225px;
+    padding-top: 50px; 
+}
 }
 
 
@@ -321,10 +456,25 @@ padding-top: 108px;
     letter-spacing: 50px;
 }
 
+@media screen and (max-width: 430px) {
+.close h2{
+    font-size: 18px;
+    border-right: 2px dotted #FFFFFF;
+    border-left: 2px dotted #FFFFFF;
+    letter-spacing: 37.5px;
+}
+}
+
 .close h3{
     font-size: 36px;
     color: #FFFFFF;
     }
+
+@media screen and (max-width: 430px) {
+  .close h3{
+    font-size: 16px;
+    }
+}
   
 .close .contents{
     vertical-align: top;
@@ -335,15 +485,31 @@ padding-top: 108px;
 
 .close p{
     font-size: 20px;
-    color: #FFFFFF;
     margin-top: 40px;
-    line-height: 40px;}
-    
+    line-height: 40px;
+    color: #FFFFFF;}
+
+@media screen and (max-width: 430px) {
+  .close p{
+    font-size: 10px;
+    margin-top: 17.74px;
+    line-height: 14px;}
+}
 
 a{
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-top: 10px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 430px) {
+  a{
+    font-size: 10px;
+    line-height: 5px;
+    margin-top: 6.55px;
+  }
 }
 
 .close a{border-bottom: 1px solid #FFFFFF;
@@ -351,11 +517,18 @@ a{
     display: inline-block;
 }
 
+@media screen and (max-width: 430px) {
+  .close a{
+    margin-top: 6.55px;
+  }
+}
+
 footer{
   position: relative;
   height: 40px;
   background: #3D3D3D;
 }
+
 
 footer p{
   color: #FFFFFF;
@@ -365,4 +538,17 @@ footer p{
   left:50%;
   transform:translate(-50%,-50%);
   width:100%;
+}
+
+@media screen and (max-width: 430px) {
+  footer{
+    height: 22.22px;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  footer p{
+  font-size: 8px;
+  }
 }

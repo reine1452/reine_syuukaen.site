@@ -29,21 +29,21 @@
      top: 85%;
      cursor: pointer;/*マウスカーソルを指マークに*/
      outline: none;/*クリックをしたら出てくる枠線を消す*/
-     border-top: 1px solid  #3D3D3D;/*矢印の色*/
-     border-right: 1px solid  #3D3D3D;/*矢印の色*/
-     height: 15px;
-     width: 15px;
+     height: 86px;
+     width: 86px;
  }
  
  .slick-prev {
     /*戻る矢印の位置と形状*/
-     left: -23%;
-     transform: rotate(-135deg);
+    background-image: url(images/left-button.png);
+    background-size: contain;
+     left: -22%;
  }
  
  .slick-next {/*次へ矢印の位置と形状*/
+    background-image: url(images/right-button.png);
+    background-size: contain;
      left: -15%;
-     transform: rotate(45deg);
  }
  
  /*ドットナビゲーションの設定*/
