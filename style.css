@@ -201,7 +201,7 @@ body{font-family: 'Noto Serif JP';}
 
     @media screen and (max-width: 430px) {
       .service{
-        height: 1700px;}
+        height: 1680px;}
     }
       
 
@@ -349,6 +349,8 @@ padding-bottom: 351px;
 
 @media screen and (max-width: 430px) {
   .product h2{
+    top: 15%; 
+    left: 15%;
     font-size: 18px;
     letter-spacing: 5px;
 } 
