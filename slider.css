@@ -2,26 +2,28 @@
 スライダーのためのcss
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
-     padding-top: 20%;
-     margin-left: 35%;
+     padding-top: 245px;
+     margin-left: 512px;
  }
  
  @media screen and (max-width: 430px) {
     .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
-    top: 50%;
-     margin-left: 25%;
+    padding-top: 117px;
+    margin-left: 87px;
  }
  }
 
  .slider img {
-    width:100%;/*スライダー内の画像を横幅100%に*/
-    height:auto;
+     width: 375px;/*スライダー内の画像を横幅100%に*/
+     height: 435px;
+     margin-left:75px;
  }
 
  @media screen and (max-width: 430px) {
     .slider img {
         width: 225px;/*スライダー内の画像を横幅100%に*/
         height: 290px;
+        margin-left: px;
     }   
  }
  
@@ -33,7 +35,7 @@
 
 @media screen and (max-width: 430px) {
     .slider .slick-slide {
-    margin: 23px;
+    margin: 0 23px;
     }
  }
  
@@ -46,7 +48,7 @@
  .slick-prev, 
  .slick-next{
      position: absolute;/*絶対配置にする*/
-     top: 85%;
+     top: 600px;
      cursor: pointer;/*マウスカーソルを指マークに*/
      outline: none;/*クリックをしたら出てくる枠線を消す*/
      height: 86px;
@@ -56,7 +58,7 @@
  @media screen and (max-width: 430px) {
     .slick-prev, 
     .slick-next{
-        top: 90%;
+        top:  505px;
         height: 43px;
         width: 43px;
     }
@@ -67,12 +69,12 @@
     /*戻る矢印の位置と形状*/
     background-image: url(images/left-button.png);
     background-size: contain;
-     left: -22%;
+     left: -265px;
  }
 
  @media screen and (max-width: 430px) {
    .slick-prev {
-     left: -3.5%;
+     left: -26px;
  } 
  }
   
@@ -80,7 +82,7 @@
  .slick-next {/*次へ矢印の位置と形状*/
     background-image: url(images/right-button.png);
     background-size: contain;
-     left: -15%;
+     left: -180px;
  }
 
  @media screen and (max-width: 430px) {

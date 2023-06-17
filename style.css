@@ -198,12 +198,12 @@ body{font-family: 'Noto Serif JP';}
     width:100%;
     height: auto;
     background-color: #FFFFFF;}
-  
-  @media screen and (max-width: 430px) {
+
+    @media screen and (max-width: 430px) {
       .service{
-      height: 1670px;
-      }
-  }
+        height: 1700px;}
+    }
+      
 
  .service img{
   width: 600px;
@@ -260,6 +260,7 @@ color: #3D3D3D;
     padding-top: 20px;
     line-height: 20px;
     width: 290px;
+    padding-bottom: 15%;
   }
 }
 
@@ -280,6 +281,7 @@ color: #3D3D3D;
 @media screen and (max-width: 430px) {
   .sell .sell-text{
   float: none;
+  margin-left: 13%;
   }
 }
 
@@ -318,7 +320,6 @@ padding-bottom: 351px;
 @media screen and (max-width: 430px) {
   .maintenance-tex{
      float: none;
-     padding-bottom: 40px;
   }
 }
 
@@ -358,6 +359,7 @@ padding-bottom: 351px;
   font-size: 25px;
   line-height: 30px;
   color: #3D3D3D;
+  margin-left: 131px;
 }
 
 @media screen and (max-width: 430px) {
@@ -533,7 +535,8 @@ padding-top: 108px;
   .close p{
     font-size: 10px;
     margin-top: 17.74px;
-    line-height: 14px;}
+    line-height: 14px;
+    text-decoration: none;}
 }
 
 a{
