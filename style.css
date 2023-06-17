@@ -201,7 +201,7 @@ body{font-family: 'Noto Serif JP';}
   
   @media screen and (max-width: 430px) {
       .service{
-      height: 1600px;
+      height: 1670px;
       }
   }
 
@@ -225,7 +225,7 @@ color: #3D3D3D;}
 
 @media screen and (max-width: 430px) {
   .service h2{
-    padding-top: 40px;
+    padding-top: 30px;
     font-size: 18px; 
   }
 }
@@ -259,6 +259,7 @@ color: #3D3D3D;
     font-size: 12px;
     padding-top: 20px;
     line-height: 20px;
+    width: 290px;
   }
 }
 
@@ -285,7 +286,7 @@ color: #3D3D3D;
 .cut{padding-top: 108px;}
 
 @media screen and (max-width: 430px) {
-  .cut{padding-top: 37px;}
+  .cut{padding-top: 40px;}
 }
 
 .cut .cut-text{
@@ -305,7 +306,7 @@ padding-bottom: 351px;
 }
 
 @media screen and (max-width: 430px) {
-  .maintenance{padding-top: 25px;}
+  .maintenance{padding-top: 40px;}
 }
 
 .maintenance-text{
@@ -317,6 +318,7 @@ padding-bottom: 351px;
 @media screen and (max-width: 430px) {
   .maintenance-tex{
      float: none;
+     padding-bottom: 40px;
   }
 }
 
@@ -331,7 +333,6 @@ padding-bottom: 351px;
     height: 622px;
 }}
   
-
 .product h2{
     position: absolute;
     writing-mode: vertical-rl;
