@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{font-family: 'Noto Serif JP';}
+body{font-family: 'Noto Serif JP', serif;}
 
     /*========= スクロールダウンのためのCSS ===============*/
     
@@ -336,7 +336,7 @@ padding-bottom: 351px;
   
 .product h2{
     position: absolute;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-rl; 
     top: 20%; 
     left: 20%;
     color: #3D3D3D;
@@ -350,24 +350,23 @@ padding-bottom: 351px;
 @media screen and (max-width: 430px) {
   .product h2{
     top: 15%; 
-    left: 15%;
+    left: 85%;
     font-size: 18px;
     letter-spacing: 5px;
 } 
 }
 
 .product p{
+  text-align: center;
   padding-top: 14px;
-  font-size: 25px;
+  font-size: clamp(16px, 2vw, 25px);
   line-height: 30px;
   color: #3D3D3D;
-  margin-left: 131px;
 }
 
 @media screen and (max-width: 430px) {
   .product p{
     padding-top: 11px;
-    font-size: 16px;
     line-height: 40px;
 }
 }

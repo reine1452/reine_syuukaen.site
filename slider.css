@@ -3,25 +3,23 @@
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
      padding-top: 245px;
-     margin-left: 512px;  
+     margin-left: 512px; 
  }
  
  @media screen and (max-width: 430px) {
     .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
     padding-top: 117px;
-    margin-left: 10px;
+    margin-left: 90px;
  }
  }
 
  .slider img {
-     width: 375px;/*スライダー内の画像を横幅100%に*/
-     height: 435px;
-     margin-left:75px;
+    width:100%;/*スライダー内の画像を横幅100%に*/
+    height:435px;
  }
 
  @media screen and (max-width: 430px) {
     .slider img {
-        width: 225px;/*スライダー内の画像を横幅100%に*/
         height: 290px;
     }   
  }
@@ -39,7 +37,6 @@
  }
  
 
- 
  /*矢印の設定*/
  
  /*戻る、次へ矢印の位置*/
@@ -81,7 +78,7 @@
  .slick-next {/*次へ矢印の位置と形状*/
     background-image: url(images/right-button.png);
     background-size: contain;
-     left: -180px;
+    left: -180px;
  }
 
  @media screen and (max-width: 430px) {
@@ -90,30 +87,3 @@
      } 
  }
   
- 
- /*ドットナビゲーションの設定*/
- 
- .slick-dots {
-     text-align:center;
-     margin:20px 0 0 0;
- }
-
- .slick-dots li {
-     display:inline-block;
-     margin:0 5px;
- }
- 
- .slick-dots button {
-     color: transparent;
-     outline: none;
-     width:8px;/*ドットボタンのサイズ*/
-     height:8px;/*ドットボタンのサイズ*/
-     display:block;
-     border-radius:50%;
-     background:#ccc;/*ドットボタンの色*/
- }
- 
- .slick-dots .slick-active button{
-     background:#333;/*ドットボタンの現在地表示の色*/
- }
- 
