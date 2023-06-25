@@ -3,13 +3,13 @@
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
      padding-top: 245px;
-     margin-left: 512px; 
+     margin-left: 35%; 
  }
  
  @media screen and (max-width: 430px) {
     .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
     padding-top: 117px;
-    margin-left: 90px;
+    margin-left: 10px;
  }
  }
 
@@ -20,7 +20,7 @@
 
  @media screen and (max-width: 430px) {
     .slider img {
-        height: 290px;
+    height: 290px;
     }   
  }
  
@@ -44,11 +44,11 @@
  .slick-prev, 
  .slick-next{
      position: absolute;/*絶対配置にする*/
-     top: 600px;
+     top: 650px;
      cursor: pointer;/*マウスカーソルを指マークに*/
      outline: none;/*クリックをしたら出てくる枠線を消す*/
-     height: 86px;
-     width: 86px;
+     height: 70px;
+     width: 100%;
  }
 
  @media screen and (max-width: 430px) {
@@ -65,7 +65,7 @@
     /*戻る矢印の位置と形状*/
     background-image: url(images/left-button.png);
     background-size: contain;
-     left: -265px;
+    left: -200px;
  }
 
  @media screen and (max-width: 430px) {
@@ -78,7 +78,7 @@
  .slick-next {/*次へ矢印の位置と形状*/
     background-image: url(images/right-button.png);
     background-size: contain;
-    left: -180px;
+    left: -131px;
  }
 
  @media screen and (max-width: 430px) {

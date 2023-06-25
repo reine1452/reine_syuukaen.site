@@ -180,9 +180,10 @@ body{font-family: 'Noto Serif JP', serif;}
     font-style: normal;
     font-size: 15px;
     color: #FFFFFF;
-    width: 884px;
+    width: 60%;
     margin: 0 auto;
     line-height: 40px;
+    text-align-last: left;
     }
   
 @media screen and (max-width: 430px) {
@@ -338,7 +339,7 @@ padding-bottom: 351px;
     position: absolute;
     writing-mode: vertical-rl; 
     top: 20%; 
-    left: 20%;
+    left: 15%;
     color: #3D3D3D;
     font-size: 35px;
     letter-spacing: 6px;
@@ -349,15 +350,12 @@ padding-bottom: 351px;
 
 @media screen and (max-width: 430px) {
   .product h2{
-    top: 15%; 
-    left: 85%;
     font-size: 18px;
     letter-spacing: 5px;
 } 
 }
 
 .product p{
-  text-align: center;
   padding-top: 14px;
   font-size: clamp(16px, 2vw, 25px);
   line-height: 30px;
@@ -476,7 +474,7 @@ padding-bottom: 351px;
 }
 
 .close .shop{
-  height: 420px;
+height: 420px;
 padding-top: 108px;
 }
 
@@ -489,7 +487,7 @@ padding-top: 108px;
 
 
 .close h2{
-    font-size: 54px;
+    font-size: 50px;
     color: #FFFFFF;
     writing-mode: vertical-rl;
     text-align: center;
