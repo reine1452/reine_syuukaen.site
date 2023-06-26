@@ -219,7 +219,7 @@ body{font-family: 'Noto Serif JP', serif;}
 
 @media screen and (max-width: 430px) {
   .service img{
-    width: 403px;
+    width: 375px;
     height: 302px;
   }
 }
