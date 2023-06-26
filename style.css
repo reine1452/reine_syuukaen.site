@@ -149,6 +149,12 @@ body{font-family: 'Noto Serif JP', serif;}
     background-color: #3D3D3D;
     }
   
+    @media screen and (max-width: 745px) {
+      .about{
+      height: 710px;
+      }
+    }
+  
   @media screen and (max-width: 430px) {
     .about{
     height: 582px;
