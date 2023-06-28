@@ -3,7 +3,7 @@
 ===================================*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
      padding-top: 245px;
-     margin-left: 35%; 
+     margin-left: 35%;
  }
  
  @media screen and (max-width: 430px) {
@@ -13,6 +13,9 @@
  }
  }
 
+ .slider  .slick-list{
+   padding: 0 15% 0 0 !important;
+ }
  .slider img {
     width:100%;/*スライダー内の画像を横幅100%に*/
     height:435px;
