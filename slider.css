@@ -9,13 +9,20 @@
  @media screen and (max-width: 430px) {
     .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
     padding-top: 117px;
-    margin-left: 10px;
+    margin-left: 87px;
  }
  }
 
  .slider  .slick-list{
    padding: 0 15% 0 0 !important;
  }
+
+ @media screen and (max-width: 430px) {
+   .slider  .slick-list{
+      padding: 0 25% 0 0 !important;
+    }  
+}
+
  .slider img {
     width:100%;/*スライダー内の画像を横幅100%に*/
     height:435px;
@@ -35,7 +42,7 @@
 
 @media screen and (max-width: 430px) {
     .slider .slick-slide {
-    margin: 0 23px;
+    margin: 0 10px;
     }
  }
  
@@ -57,7 +64,7 @@
  @media screen and (max-width: 430px) {
     .slick-prev, 
     .slick-next{
-        top:  475px;
+        top:  530px;
         height: 43px;
         width: 43px;
     }
