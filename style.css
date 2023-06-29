@@ -370,8 +370,8 @@ padding-bottom: 351px;
 
 @media screen and (max-width: 430px) {
   .product p{
-    padding-top: 11px;
-    line-height: 40px;
+    padding-top:2px;
+    display: block;
 }
 }
 
@@ -535,6 +535,7 @@ padding-top: 108px;
     margin-top: 40px;
     line-height: 40px;
     color: #FFFFFF;
+    pointer-events: none;
   }
 
 @media screen and (max-width: 430px) {

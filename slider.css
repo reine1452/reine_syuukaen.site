@@ -64,7 +64,7 @@
  @media screen and (max-width: 430px) {
     .slick-prev, 
     .slick-next{
-        top:  530px;
+        top:  475px;
         height: 43px;
         width: 43px;
     }
